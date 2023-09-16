@@ -16,14 +16,15 @@ const Hero = () => {
             <img src="./bottle.png" alt="Image 2"  className=" bottle absolute top-1/2 right-1/2 transform translate-x-1/2 -translate-y-1/2  rounded-lg " />
         </div>
     </section>
-    <section className='campanies'>
- <div className='flex flex-wrap w-full  justify-center md:justify-around items-center'>
- <img src="./pfizer.png" alt="" className='w-1/2 sm:w-1/3 md:w-auto mb-4 md:mb-0' />
-  <img src="./sanofi.png" alt="" className='w-1/2 sm:w-1/3 md:w-auto mb-4 md:mb-0' />
-  <img src="./merck.png" alt="" className='w-1/2 sm:w-1/3 md:w-auto mb-4 md:mb-0' />
-  <img src="./novartis.png" alt="" className='w-1/2 sm:w-1/3 md:w-auto mb-4 md:mb-0' />
-  <img src="./merck.png" alt="" className='w-1/2 sm:w-1/3 md:w-auto' />
- </div>
+    <section className=''>
+    <div class='companies flex flex-wrap w-full justify-center md:justify-around items-center'>
+  <img src="./pfizer.png" alt="" class='w-full sm:w-1/2 md:w-auto mb-4 sm:mb-0' />
+  <img src="./sanofi.png" alt="" class='w-full sm:w-1/2 md:w-auto mb-4 sm:mb-0' />
+  <img src="./merck.png" alt="" class='w-full sm:w-1/2 md:w-auto mb-4 sm:mb-0' />
+  <img src="./novartis.png" alt="" class='w-full sm:w-1/2 md:w-auto mb-4 sm:mb-0' />
+  <img src="./merck.png" alt="" class='w-full sm:w-1/2 md:w-auto' />
+</div>
+
 </section>
 
     </>
