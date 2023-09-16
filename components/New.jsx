@@ -2,7 +2,7 @@ import React from 'react';
 
 const New = () => {
   return (
-  <div className=" NewParent flex justify-center items-center h-screen  border-red-900 border-8 ">
+  <div className=" NewParent flex justify-center items-center h-screen   ">
       <section className="text-center py-10">
         <h1 className="text-4xl font-semibold mb-4 text-custom-200">New</h1>
         <div className="border-b-4 border-custom-200 w-16 mx-auto mb-6"></div>
@@ -15,7 +15,7 @@ const New = () => {
             <img src="./DoctorWriting.png" alt="" className="rounded-lg w-2/3 " />
           </div>
           <div className=" NewChild1 md:w-1/2 mt-4 md:mt-0 " >
-            <button className="bg-custom-200 text-right text-white font-semibold rounded-full lg:px-6 lg:py-2  sm:px-4 sm:py-1 mb-4">Step 1</button>
+          <button className="bg-custom-200 text-right text-white font-semibold rounded-full px-6 py-2 mb-4">Step 2</button>
             <h3 className=" font-semibold text-left text-custom-50 lg:text-5xl sm:text-3xl font-sans mb-2">Essential Nutrition Report</h3>
             <p className="text-gray-600  font-semibold mb-8  text-left">
             Embarking on a mission to unlock the secrets hidden within your DNA, GenoPalate has revolutionized the way people approach their health and nutrition. By analyzing your genetic profile, we provide you with a comprehensive understanding of how your body responds to different foods, empowering you to make informed choices tailored to your unique genetic makeup.

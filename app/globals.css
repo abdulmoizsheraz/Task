@@ -1,11 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+    overflow-x: hidden;
+}
 .vitamins{
 height: 500px;
 width: 100vw;
 position: relative;
+}
+.Remarks{
+    margin-right: -157px;
 }
 .vitamins::after{
    content: ""; 
@@ -44,5 +49,8 @@ position: relative;
     }
     .vitamins{
         height: 700px;
+    }
+    .Remarks{
+        margin-right: 0 !important;
     }
  }

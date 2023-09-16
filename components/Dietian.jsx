@@ -2,11 +2,11 @@ import React from 'react'
 
 const Dietian = () => {
   return (
-    <div className="flex flex-col mt-10 md:flex-row items-center justify-around  ">
+    <div className=" NewParent flex flex-col mt-10 md:flex-row items-center justify-around  ">
     <div className="md:w-1/2 flex items-center justify-around  ">
       <img src="./DoctorWriting.png" alt="" className="rounded-lg w-2/3 " />
     </div>
-    <div className="md:w-1/2 mt-4 md:mt-0  " style={{"margin-left":"-157px"}}>
+    <div className="md:w-1/2 mt-4 md:mt-0 NewChild1 " >
       <button className="bg-custom-200 text-right text-white font-semibold rounded-full px-6 py-2 mb-4">Step 3</button>
       <h3 className=" font-semibold text-left text-custom-50 lg:text-5xl sm:text-4xl font-sans mb-2 ">Dietitian Coaching</h3>
       <p className="text-gray-600  font-semibold mb-8  text-left">
