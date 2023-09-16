@@ -33,4 +33,12 @@ position: relative;
     .NewParent{
         height: 50%;
     }
+    .NewChild{
+        display: flex;
+        flex-direction: coloumn;
+    }
+    .NewChild1{
+        margin-left: 0 !important;
+
+    }
  }
