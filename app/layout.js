@@ -1,20 +1,24 @@
-import { Footer } from '@components/Footer'
 import { metadata } from './globals.css'
-  import Navbar from '@components/Navbar'
+import Navbar from '@components/Navbar'
+import Footer from '@components/Footer'
 export default function Layout({ children }) {
   return (
     <>
       <html lang="en">
         <head>
-          <title>TalentTrove-Navigate Career</title>
+          <title>Medicine</title>
           <meta name="description"  />
         </head>
-        <body className="flex justify-center flex-col">
-          <main  className=" main flex justify-center flex-col  " >
+        <body className="">
+        <div className='text-center sm:text-sm'>
+ Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements coming soon →
+ </div>
           <Navbar />
             {children}
           <Footer/>
-          </main>
+          <div className='text-center sm:text-sm'>
+ Design and Developed by ZyTech Software
+ </div>
         </body>
       </html>
     </>

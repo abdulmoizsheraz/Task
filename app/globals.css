@@ -2,166 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.vitamins{
+height: 500px;
+width: 100vw;
+position: relative;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.vitamins::after{
+   content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/vitamins.png'); 
+    background-size: cover; /* Cover the entire pseudo-element with the background image */
+    background-position: center; 
+    opacity: 1; 
+    z-index: -1; 
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: black;
-  background: white;
-  margin-right: 150px;
-  margin-left: 150px;
+@media only screen and (min-width: 600px) {
  
-}
-.searchbar{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 100px;
-  border-radius: 12px;
-  padding: 18px;
-}
-.jobalert{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 12px;
-  width: 250px;
-  height: 200px;
-padding: 0px 12px;
-}
-.jobdetailbg{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 12px;
-  height: 1400px;
-  width: 750px;
-}
-.backbtn{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-}
-.job{
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 12px;
-  padding: 17px;
-}
-/* Signup Componet */
-.login-signup-container {
-  top: 50px;
-  right: 472px;
-  z-index: 5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: white !important;
-}
-
-.login-form-container {
-  font-weight: bold;
-  color: black !important;
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.8px);
--webkit-backdrop-filter: blur(11.8px);
-border: 4px solid rgb(4, 157, 4);
-  overflow: hidden;
-  width: 561px;
-  height: 70vh;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: bolder;
-  font-size: 30px;
-  
-}
-
-.form {
-  padding: 40px;
-}
-
-.form-group {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.form-group input {
-  border: none;
-  border-bottom: 2px solid #ddd;
-  font-size: 16px;
-  padding: 10px 0;
-  width: 100%;
-  outline: none;
-  background: none;
-}
-
-.form-group input:focus,
-.form-group input:valid {
-  border-bottom-color: green;
-}
-
-.form-group label {
-  color: #999;
-  font-size: 16px;
-  font-weight: normal;
-  position: absolute;
-  pointer-events: none;
-  left: 0;
-  top: 10px;
-  transition: all 0.2s ease;
-}
-
-.form-group input:focus ~ label,
-.form-group input:valid ~ label {
-  top: -20px;
-  font-size: 12px;
-  color: white;
-}
-
-button[type="submit"] {
-  border: none;
-  color: #fff;
-  padding:  10px 12px;
-background-color: white;
-color: black;
-border-radius:34px ;
-}
-.navonscroll{
-  background: rgba(255, 255, 255, 0.43);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-}
-.employyinfo{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-}
-.list-style-type{
-  list-style-type: none;
-}
-
-.list-style-type li::before {
-  content: "○";
-  color:green; /* Desired bullet color */
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  font-size: 15px;
-}
-.recommendedsection{
-  height: 100vh;
-  width: 320px;
-}
-.recommendeditem{
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-}
+ }
