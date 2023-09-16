@@ -10,11 +10,11 @@ const New = () => {
         <p className="text-gray-600 mb-8 text-center">
         Our 3-step program jumpstarts your health journey. With your Essential Nutrition Report, we provide a  <br/> tailored daily nutrition program based on your genetic needs. Get personalized vitamins and ongoing <br/> support from our expert dietitians for lasting health, starting today.
         </p>
-        <div className=" NewChild flex lg:flex-row sm:flex-col  items-center justify-around  ">
+        <div className=" NewChild flex  items-center justify-around  ">
           <div className="md:w-1/2 flex items-center justify-around  ">
             <img src="./DoctorWriting.png" alt="" className="rounded-lg w-2/3 " />
           </div>
-          <div className=" NewChild1 md:w-1/2 mt-4 md:mt-0  " style={{"margin-left":"-157px"}}>
+          <div className=" NewChild1 md:w-1/2 mt-4 md:mt-0 " >
             <button className="bg-custom-200 text-right text-white font-semibold rounded-full lg:px-6 lg:py-2  sm:px-4 sm:py-1 mb-4">Step 1</button>
             <h3 className=" font-semibold text-left text-custom-50 lg:text-5xl sm:text-3xl font-sans mb-2">Essential Nutrition Report</h3>
             <p className="text-gray-600  font-semibold mb-8  text-left">

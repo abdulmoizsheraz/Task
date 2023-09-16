@@ -8,7 +8,7 @@ const Dietian = () => {
     </div>
     <div className="md:w-1/2 mt-4 md:mt-0  " style={{"margin-left":"-157px"}}>
       <button className="bg-custom-200 text-right text-white font-semibold rounded-full px-6 py-2 mb-4">Step 3</button>
-      <h3 className=" font-semibold text-left text-custom-50 text-5xl font-sans mb-2">Dietitian Coaching</h3>
+      <h3 className=" font-semibold text-left text-custom-50 lg:text-5xl sm:text-4xl font-sans mb-2 ">Dietitian Coaching</h3>
       <p className="text-gray-600  font-semibold mb-8  text-left">
       Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life.
       </p>

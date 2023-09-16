@@ -20,7 +20,9 @@ position: relative;
     opacity: 1; 
     z-index: -1; 
 }
-
+.NewChild1{
+    margin-left: -127px;
+}
 
 @media only screen and (max-width: 600px) {
     .companies {
@@ -34,11 +36,13 @@ position: relative;
         height: 50%;
     }
     .NewChild{
-        display: flex;
-        flex-direction: coloumn;
+        flex-direction: column;
     }
     .NewChild1{
         margin-left: 0 !important;
 
+    }
+    .vitamins{
+        height: 700px;
     }
  }
