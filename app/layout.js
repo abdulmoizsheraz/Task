@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <meta name="description"  />
         </head>
         <body className="">
-        <div className='text-center sm:text-sm'>
+        <div className='text-center text-sm'>
  Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements coming soon →
  </div>
           <Navbar />
